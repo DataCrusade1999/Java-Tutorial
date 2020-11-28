@@ -1,0 +1,6 @@
+{
+    "git.ignoreLimitWarning": true,
+    "maven.view": "hierarchical",
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.dependency.packagePresentation": "hierarchical"
+}
