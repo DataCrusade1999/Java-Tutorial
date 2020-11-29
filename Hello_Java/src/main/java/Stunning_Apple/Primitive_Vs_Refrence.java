@@ -11,7 +11,7 @@ public class Primitive_Vs_Refrence {
         Person mariam = alex;
         System.out.println("Before changing alex");
         System.out.println(alex.name + " " + mariam.name);
-        alex.name = "Alexander"; 
+        mariam.name = "Cassidy"; 
         System.out.println("After changing alex");
         System.out.println(alex.name + " " + mariam.name);
     }
