@@ -5,10 +5,12 @@ public class Comparison_Operator {
         int ashu = 90;
         int cash = 78;
         System.out.println(ashu>cash);
+        System.out.println(ashu>=cash);
         System.out.println(ashu<cash);
+        System.out.println(ashu<=cash);
         System.out.println(ashu==cash);
         System.out.println(ashu!=cash);
-        
+
     }
     
 }
