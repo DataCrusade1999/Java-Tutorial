@@ -6,8 +6,8 @@ public class Primitive_Vs_Refrence {
         int a=10;
         int b=a;
         a=100;
-        System.out.printf("a is %d and b is %d", a, b);
-        Person alex = new Person("alex");
+        System.out.printf("a is %d and b is %d\n", a, b);
+        Person alex /* <- This is the Refrence */ = new Person("alex"); //<- This is the object
         Person mariam = alex;
         System.out.println("Before changing alex");
         System.out.println(alex.name + " " + mariam.name);
