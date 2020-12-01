@@ -20,8 +20,8 @@ public class Array {
         System.out.println(Arrays.toString(array_s));
         String array_st[]={"Ashutosh","Pandey"};
         System.out.println(Arrays.toString(array_st));
-
-
+        int ninety = array_sec[array_sec.length-1];
+        System.out.println(ninety);
     }
-    
+     
 }
