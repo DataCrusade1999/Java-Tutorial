@@ -6,7 +6,6 @@ public class OOP {
         int count = countOccurence(letters,'A');
 
         System.out.println(count);
-        System.out.println(letters);
     }
     public static int countOccurence(char letters[],char searchLetter) {
         int count = 0;
