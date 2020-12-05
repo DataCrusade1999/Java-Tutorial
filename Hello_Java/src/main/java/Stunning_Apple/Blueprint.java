@@ -22,12 +22,11 @@ public class Blueprint {
         String color;
         String shape;
 
-        Table(int legs,String color,String shape) {
-            this.color=color;
-            this.legs=legs;
-            this.shape=shape;
+        Table(int legs, String color, String shape) {
+            this.color = color;
+            this.legs = legs;
+            this.shape = shape;
         }
 
     }
-    
 }
